@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MEDSAFE</string>
+    <string name="app_version">1.0.0</string>
+    <string name="safety_disclaimer">This application helps organize medicine expiry information. It does not provide medical advice. Always verify the original packaging and consult a pharmacist or healthcare professional if you are unsure whether a medicine can be used.</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_inventory">Inventory</string>
+    <string name="nav_reminders">Reminders</string>
+    <string name="nav_more">More</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_title">MEDSAFE Dashboard</string>
+    <string name="total_active">Total Active</string>
+    <string name="valid_count">Valid</string>
+    <string name="expiring_soon_count">Expiring Soon</string>
+    <string name="expired_count">Expired</string>
+    <string name="urgent_expiries">Urgent &amp; Upcoming Expiries</string>
+    <string name="no_urgent_expiries">No medicines expiring soon</string>
+    
+    <!-- Inventory -->
+    <string name="inventory_title">Medicine Inventory</string>
+    <string name="search_placeholder">Search by name, manufacturer, location…</string>
+    <string name="filter_all">All</string>
+    <string name="filter_valid">Valid</string>
+    <string name="filter_expiring">Expiring Soon</string>
+    <string name="filter_expired">Expired</string>
+    <string name="filter_disposed">Disposed</string>
+    <string name="empty_inventory_title">No medicines found</string>
+    <string name="empty_inventory_subtitle">Add your first medicine to start tracking expiry batches safely.</string>
+    <string name="btn_add_medicine">Add Medicine</string>
+    
+    <!-- Add Medicine -->
+    <string name="add_medicine_title">Add Medicine</string>
+    <string name="medicine_info_header">Medicine Information</string>
+    <string name="field_medicine_name">Medicine Name *</string>
+    <string name="field_strength">Strength (e.g. 500mg, 10ml)</string>
+    <string name="field_manufacturer">Manufacturer</string>
+    <string name="field_medicine_type">Medicine Type (e.g. Tablet, Syrup, Capsule)</string>
+    <string name="field_barcode">Barcode</string>
+    <string name="field_notes">Notes</string>
+    <string name="batch_info_header">Initial Batch Information</string>
+    <string name="field_expiry_date">Expiry Date * (YYYY-MM-DD)</string>
+    <string name="field_batch_number">Batch / Lot Number</string>
+    <string name="field_quantity">Quantity</string>
+    <string name="field_storage_location">Storage Location (e.g. First Aid Box, Fridge)</string>
+    <string name="btn_save_medicine">Save Medicine</string>
+    
+    <!-- Medicine Detail -->
+    <string name="medicine_detail_title">Medicine Details</string>
+    <string name="batches_header">Batches</string>
+    <string name="btn_dispose_batch">Dispose</string>
+    <string name="btn_restore_batch">Restore</string>
+    <string name="btn_delete_medicine">Delete Medicine</string>
+    
+    <!-- Statuses -->
+    <string name="status_valid">Expiry date not reached</string>
+    <string name="status_expiring_soon">Expiring Soon</string>
+    <string name="status_expired">Expired</string>
+    <string name="status_disposed">Disposed</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="pref_notifications">Notifications</string>
+    <string name="pref_notifications_desc">Enable local expiry reminder alerts</string>
+    <string name="pref_alert_threshold">Warning Threshold (Days)</string>
+    <string name="pref_theme">App Theme</string>
+    <string name="theme_system">System Default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    
+    <!-- About -->
+    <string name="about_title">About MEDSAFE</string>
+    <string name="about_subtitle">Offline, Private &amp; Batch-Centric Medicine Expiry Tracker</string>
+    <string name="about_description">MEDSAFE Mobile is an independent Android application engineered to help individuals and families track medication batches, monitor expiry windows, and prevent accidental consumption of expired medications. All data is kept 100% locally on your device.</string>
+</resources>

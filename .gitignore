@@ -1,0 +1,51 @@
+# Signing / secrets
+*.jks
+*.keystore
+*.p12
+*.key
+*.pem
+*.pk8
+signing.properties
+
+# Gradle / build
+.gradle/
+build/
+app/build/
+app/release/
+.externalNativeBuild/
+.cxx/
+
+# Local machine / SDK
+local.properties
+
+# Android generated binaries
+*.apk
+*.ap_
+*.aab
+*.dex
+
+# Databases / runtime data
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.bak
+*.backup
+
+# IDE / editor / OS
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs / caches
+*.log
+.kotlin/
+captures/
+*.hprof
